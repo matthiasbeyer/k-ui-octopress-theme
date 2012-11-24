@@ -1,11 +1,13 @@
 [Octopress](http://octopress.org/) Theme for [k-ui.jp](http://k-ui.jp/)
 
+modified by [me] for my website/blog.
+
 Install
 ----------------------------------------------------------------
 
 ```sh
 $ cd octopress-home/.theme
-$ git clone git://github.com/kui/k-ui-octopress-theme.git kui
+$ git clone git://github.com/matthiasbeyer/k-ui-octopress-theme.git kui
 $ cd ..
 $ rake install["kui"]
 $ rake generate
@@ -49,3 +51,6 @@ github_type: all
 github_sort: updated
 github_direction: desc
 ```
+
+
+[me]: github.com/matthiasbeyer
