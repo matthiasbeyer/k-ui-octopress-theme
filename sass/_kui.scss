@@ -3,7 +3,7 @@
 $max-width: 900px;
 $base-font-color: #444;
 
-#comments { display: none; }
+#comments { display: block; }
 body {
   font-family: "Hiragino Mincho ProN", Georgia, Times, "Times New Roman", serif, "IPA明朝";
   font-size: 1.0em;
@@ -38,7 +38,7 @@ header[role="banner"] {
       font-size: 2.5em;
       font-weight: 100;
     }
-    h2 { display: none; }
+    h2 { display: block; }
     margin: 0px;
     padding: 0px;
   }
@@ -121,6 +121,7 @@ header[role="banner"] {
     font-style: italic;
   }
 }
+
 .entry > header{
   margin: 50px 0px;
 }
@@ -147,6 +148,6 @@ footer[role="contentinfo"]{
 }
 
 /* disqus */
-#dsq-reply > h3, #dsq-account-dropdown, #dsq-subscribe { display: none; }
+#dsq-reply > h3, #dsq-account-dropdown, #dsq-subscribe { display: block; }
 #disqus_thread #dsq-content #dsq-global-toolbar { margin: 0.3em 0px; }
 #dsq-reply{ margin: 0.3em}

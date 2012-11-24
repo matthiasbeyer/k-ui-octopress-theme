@@ -1,10 +1,10 @@
 ---
 layout: page
-title: "過去の記事"
+title: "Archive"
 footer: false
 ---
 
-<h2>過去記事の一覧</h2>
+<h2>Archiv</h2>
 
 <div id="blog-archives">
 
@@ -21,13 +21,13 @@ footer: false
     </ul>
     {% endif %}
 
-    <h3>{{ year }} 年</h3>
+    <h3>{{ year }}</h3>
     <ul>
   {% endunless %}
 
       <li>
         <time datetime="{{ post.date | datetime | date_to_xmlschema }}" pubdate>
-          {{ post.date | date: "<span class='month'>%m月</span> <span class='day'>%d日</span>"}}
+          {{ post.date | date: "<span class='day'>%d.</span> <span class='month'>%m.</span>"}}
         </time>
         &mdash;
         <a href="{{ post.url }}">{{ post.title }}</a>

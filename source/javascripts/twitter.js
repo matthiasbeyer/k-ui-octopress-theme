@@ -9,14 +9,14 @@ function prettyDate(time) {
   }
   var say = {
     just_now:    " now",
-    minute_ago:  "1 分前",
-    minutes_ago: " 分前",
-    hour_ago:    "1 時間前",
-    hours_ago:   " 時間前",
-    yesterday:   "1 日前",
-    days_ago:    " 日前",
-    last_week:   "1 週間前",
-    weeks_ago:   " 週間前"
+    minute_ago:  "1 min",
+    minutes_ago: "~1 min",
+    hour_ago:    "1 Stunde",
+    hours_ago:   "Stunden",
+    yesterday:   "Gestern",
+    days_ago:    "Tage",
+    last_week:   "Woche",
+    weeks_ago:   "Wochen"
   };
 
   var current_date = new Date(),
