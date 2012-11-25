@@ -1,14 +1,14 @@
 .category_list {
   margin-left: 3em;
-  > li {
-    > a {
-      text-decoration: none;
 
-      &hover {
-        text-decoration: underline;
-      }
+  > li { 
+    text-decoration: none;
+  }
 
+  > a {
+    text-decoration: none;
+    &hover {
+      text-decoration: underline;
     }
-
   }
 }

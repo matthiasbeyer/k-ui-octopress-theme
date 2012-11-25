@@ -1,0 +1,41 @@
+.page { 
+  margin-bottom: 3em;
+}
+
+.sidebar {
+  
+  margin-top: 3em;
+  margin-bottom: 3em;
+
+  .sidebar_github{
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3em;
+  }
+
+  .sidebar_twitter {
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3em;
+  }
+
+  .googleplus {
+    text-align: center;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3em;
+  }
+
+  .sidebar_recentposts {
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+ 
+    > ul li {
+      margin-top: 0.8em;
+    }
+  }
+}
