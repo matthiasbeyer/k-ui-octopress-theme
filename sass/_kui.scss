@@ -5,7 +5,7 @@ $base-font-color: #444;
 
 #comments { display: block; }
 body {
-  font-family: "Hiragino Mincho ProN", Georgia, Times, "Times New Roman", serif, "IPA明朝";
+  font-family: "Times New Roman", Georgia, Times, "Times New Roman", serif ;
   font-size: 1.0em;
   color: #{$base-font-color};
   margin: 0px;
@@ -13,7 +13,7 @@ body {
 }
 
 h2, h3, h4, h5, h6 {
-  font-family: "Hiragino Kaku Gothic Pro W3", "ヒラギノ角ゴ Pro W3", Meiryo, "メイリオ", "MS P Gothic", "ＭＳ Ｐゴシック", sans-serif;
+  font-family: "Times New Roman", sans-serif;
 }
 
 .site_metas {
