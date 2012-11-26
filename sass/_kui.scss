@@ -85,10 +85,10 @@ header[role="banner"] {
     padding: 0px;
   }
 
-  @each $name in github, twitter, tumblr, feed {
+  @each $name in google, github, twitter, tumblr, feed {
     #social-links-#{$name} {
       > a {
-        @include social-links-base(#{$name});
+        @if $name != google { @include social-links-base(#{$name}); }
         &:hover {
           @if $name == twitter { background-color: #39c; }
           @else if $name == tumblr { background-color: #357; }

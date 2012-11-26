@@ -3,6 +3,16 @@
   margin-bottom: 10em;
 }
 
+.entry_title {
+}
+
+.entry_permalink {
+  font-size: 0.5em;
+  font-family: Arial;
+  font-color: black;
+  float: right;
+}
+
 > p.meta {
   > .author {
 
@@ -10,11 +20,28 @@
 
   > .categories {
   }
-
-  > .sharing {
-  }
   
   margin-bottom: 20em;
+
+  > .entry_content {
+    > .left {
+      display: inline;
+      float: left;
+      max-width: 50%;
+      height: auto;
+    }
+
+    > .right {
+      display: inline;
+      float: right;
+      max-width: 50%;
+      height: auto;
+    }
+  }
 }
 
+#disqus_thread {
+  height: auto;
+  background: #F0F0F0;
+}
 /* does not work */
