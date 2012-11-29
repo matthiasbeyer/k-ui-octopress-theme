@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+<h2>Tag: {{ page.tag }}</h2>
+<ul>
+	{% for post in page.posts %}
+		<li class="tag">
+			<a class="tag_link" href="{{ post.url }}">{{ post.title }}</a> 
+			<span class="tag_date">({{ post.date | date_to_string }})</span>
+			<p class="tag_tags">Tags: {{ post | tags }}</p>
+		</li>
+	{% endfor %}
+</ul>

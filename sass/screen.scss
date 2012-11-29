@@ -13,8 +13,14 @@
 @import "navigation";
 @import "categories";
 @import "article";
+@import "tag_page";
 @import "asides";
 
 /* my styles */
 @import "kui";
 
+/* wikipedia plugin */
+@import "wikipedia";
+
+/* youtube/vimeo plugin */
+@import "rve";
