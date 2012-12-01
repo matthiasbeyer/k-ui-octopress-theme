@@ -5,15 +5,15 @@ $base-font-color: #444;
 
 #comments { display: block; }
 body {
-  font-family: "Times New Roman", Georgia, Times, "Times New Roman", serif ;
-  font-size: 1.0em;
+  font-family: Georgia, serif ;
+  font-size: 0.9em;
   color: #{$base-font-color};
   margin: 0px;
   padding: 0px;
 }
 
 h2, h3, h4, h5, h6 {
-  font-family: "Times New Roman", sans-serif;
+  font-family: Georgia, sans-serif;
 }
 
 .site_metas {
