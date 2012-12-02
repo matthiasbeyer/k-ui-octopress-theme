@@ -96,9 +96,9 @@ header[role="banner"] {
 }
 .maskImage{
   #social-links > ul > li > a {
-    background-color: #999;
+    //background-color: #999;
     display: block;
-    text-indent: -999999em;
+    //text-indent: -999999em;
     position: relative;
     top: 0px;
     left: 0px;
@@ -108,7 +108,7 @@ header[role="banner"] {
   @each $name in google, github, twitter, tumblr, feed {
     #social-links-#{$name} {
       > a {
-        @if $name != google { @include social-links-base(#{$name}); }
+        //@if $name != google { @include social-links-base(#{$name}); }
         &:hover {
           @if $name == twitter { background-color: #39c; }
           @else if $name == tumblr { background-color: #357; }
