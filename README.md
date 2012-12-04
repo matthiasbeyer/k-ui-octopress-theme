@@ -1,6 +1,6 @@
 [Octopress](http://octopress.org/) Theme for [k-ui.jp](http://k-ui.jp/)
 
-modified by [me] for my website/blog.
+modified by [me] for my [website/blog].
 
 Install
 ----------------------------------------------------------------
@@ -54,3 +54,4 @@ github_direction: desc
 
 
 [me]: github.com/matthiasbeyer
+[website/blog]: http://beyermatthias.de
