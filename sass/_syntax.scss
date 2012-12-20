@@ -41,12 +41,14 @@ figure.code, .gist-file, pre {
 }
 
 html .gist .gist-file {
-  margin-bottom: 1.8em;
+  margin-bottom: 0.3em;
   position: relative;
+
   border: none;
   padding-top: image-height("code_bg.png") !important;
+  
   .gist-syntax {
-    border-bottom: 0 !important;
+    border-bottom: 0em !important;
     background: none !important;
     .gist-highlight{
       background: $base03 !important;
@@ -55,11 +57,13 @@ html .gist .gist-file {
       }
     }
   }
+
   .gist-meta {
    padding: .6em 0.8em;
    border: 1px solid lighten($base02, 2) !important;
    color: $base01;
-   font-size: 70% !important;
+   font-size: 100% !important;
+
    @if $solarized == light {
      background-color: lighten($base03, 2);
      border: 1px solid $pre-border !important;
@@ -76,7 +80,7 @@ html .gist .gist-file {
     }
     a[href*='#file'] {
       position: absolute; top: 0; left:0; right:-10px;
-      color: #474747 !important;
+      color: #000000 !important;
       @extend .code-title;
       &:hover { color: $base1 !important; }
     }
@@ -205,7 +209,7 @@ p, li {
     padding: 0;
     margin-bottom: 0;
   }
-  margin-bottom: 1.8em;
+  margin-bottom: 0.3em;
   background: $base03;
   overflow-y: hidden;
   overflow-x: auto;
@@ -260,9 +264,10 @@ figure.code {
   color: #333333;
   font-weight: normal;
   margin-bottom: 0;
+  border-radius: 5px;
   font-family: "Helvetica Neue", Arial, "Lucida Grande", "Lucida Sans Unicode", Lucida, sans-serif;
 //  background: #aaaaaa image-url("code_bg.png") top repeat-x;
-  background-color: #ccc;
+  background-color: #FFFFFF;
   border : {
     width: 1px;
     style: solid;
