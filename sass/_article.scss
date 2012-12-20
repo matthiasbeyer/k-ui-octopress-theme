@@ -45,8 +45,21 @@
   }
 }
 
-#disqus_thread {
-  height: auto;
-  background: #F0F0F0;
+blockquote {
+  font-size: 1.5em;
+  font-style: italic;
+  border-left: 8px solid #E0E0E0;
+  padding-left: 1em;
+  vertical-align: middle;
+
+  footer {
+    text-align: right;
+    font-size: 0.50em;
+    strong {
+      display: block;
+    }
+
+    cite {
+    }
+  }
 }
-/* does not work */
