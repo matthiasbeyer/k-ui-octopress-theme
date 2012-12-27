@@ -2,6 +2,10 @@
 
 modified by [me] for my [website/blog].
 
+NOTE:   
+I modified this theme for _my_ blog. If you want to use this theme with more
+stuff in it, you may have to modify it before, as I don't use any asides!
+
 Install
 ----------------------------------------------------------------
 
