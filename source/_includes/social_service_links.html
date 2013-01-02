@@ -1,22 +1,32 @@
 {% if site.social_service_links %}
 <div id="social-links">
   <ul>
+
+	<li>
+      <div class="g-plusone" data-size="small"></div>
+	</li>
+
 	<li id="social-links-google">
 	  <a title="Google" href="http://gplus.to/musicmatze">google+</a>
 	</li> 
+
     <li id="social-links-github">
       <a title="GitHub" href="https://github.com/matthiasbeyer">github</a>
     </li>
+
     <li id="social-links-twitter">
       <a title="twitter" href="http://twitter.com/musicmatze">twitter</a>
     </li>
-    <li id="social-links-feed">
+	
+	<li id="social-links-feed">
 	  <a title="feed" href="{{ root_url }}/atom.xml">feed</a>
     </li>
+	
 	<li id="social-links-feed">
 	  <a title="subscribe by mail" href="{{ site.subscribe_email }}">subscribe
 		by mail</a>
 	</li>
+  
   </ul>
 </div>
 {% endif %}

@@ -1,0 +1,83 @@
+<article class="entry" role="article">
+
+  <header>
+		<h1 class="entry_title">{{ post.title }}
+			<small class="entry_permalink">(<a href='{{ post.url }}'>Permalink</a>)</small>
+		</h1>
+    {% if post.meta %}
+    <p class="meta">
+
+      {% if post.date %}
+				<time datetime="{{post.date}}" pubdate>{{post.date_formatted}}</time>
+      {% endif %}
+
+    </p>
+    {% endif %}
+  </header>
+
+  <div class="entry_content">{{ content }}</div>
+
+  <footer>
+    <p class="meta">
+
+      <span class="author">
+		  Posted by 
+		  <span class="fn">
+			  {% if post.author %}
+				{{ post.author }}
+			  {% else %}
+				{{ author }}	  
+			  {% endif %}
+		  </span>
+      </span>
+
+      {% if has_date != '0' %}
+		  <time datetime="{{post.date}}" pubdate>{{post.date_formatted}}</time>
+      {% endif %}
+
+      {% if category != '0' %}
+      <span class="categories">
+		Posted in {{ post.categories | category_links }}
+      </span><br />
+      {% endif %}
+
+	  <span class="tags">
+		Tags: {{ post | tags }}
+	  </span>
+	  
+	  {% unless site.sharing == false or post.sharing == false%}
+	  <div class="sharing">
+
+      {% if site.google_plus_one %}
+		<div 
+		  class="g-plusone" 
+		  href="{{ site.url }}{{ post.url }}" 
+		  data-size="{{ site.google_plus_one_size }}">
+		</div>
+      {% endif %}
+
+      {% if site.twitter_tweet_button %}
+				<a href="http://twitter.com/share"
+					class="twitter-share-button"
+					data-url="{{ site.url }}{{ post.url }}"
+					data-via="{{ site.twitter_user }}"
+					data-counturl="{{ site.url }}{{ post.url }}" 
+				>Tweet</a>
+      {% endif %}
+
+      {% if site.facebook_like %}
+				<div class="fb-like"
+					data-send="true"
+					data-width="450"
+					data-show-faces="false">
+				</div>
+      {% endif %}
+
+	  </div>
+	  {% endunless %}
+
+    </p>
+
+  </footer>
+  
+</article>
